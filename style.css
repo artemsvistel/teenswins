@@ -1,0 +1,64 @@
+body {
+    margin: 3% 0;
+    background: #fffde7;
+}
+h1, h2, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Kalam', cursive;
+    color: #505050;
+}
+#portrait {
+    width: 30%;
+    border-radius: 50%;
+}
+.intro, .answer, .outro {
+    text-align: center;
+}
+.intro {
+    margin-bottom: 3%;
+}
+.answer {
+    padding: 0 1%;
+}
+.answer h2 {
+    text-shadow: 1px 1px rgba(0,0,0,.1);
+    font-size: 24px;
+}
+.answer div {
+    background: #fff59d;
+    padding: 0.5% 5%;
+    height: 292px;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,.15);
+}
+.intro p, .outro h4 {
+    padding: 0 15%;
+}
+.outro h4 {
+    margin: 3% 0;
+}
+.outro .col-md-6 {
+    padding: 0.5%;
+}
+.outro .lesson {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 10% 0;
+    }
+    .outro h4 {
+        margin: 10% 0;
+    }
+    .intro {
+        margin-bottom: 10%;
+    }
+    #portrait {
+        width: 40%;
+    }
+    .answer div {
+        margin: 2% 5%;
+        height: auto;
+    }
+}
