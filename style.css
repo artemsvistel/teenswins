@@ -6,7 +6,7 @@ h1, h2, h4 {
     font-family: 'Raleway', sans-serif;
 }
 p {
-    /*font-family: 'Kalam', cursive;*/
+    font-family: 'Kalam', cursive;
     color: #505050;
 }
 #portrait {
@@ -47,6 +47,9 @@ p {
 @media only screen and (max-width: 768px) {
     body {
         margin: 10% 0;
+    }
+    p {
+        font-family: arial;
     }
     .outro h4 {
         margin: 10% 0;
