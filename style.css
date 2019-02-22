@@ -55,6 +55,9 @@ p {
         margin: 10% 0;
         padding: 5% 0;
     }
+    .intro p {
+        padding: 0;
+    }
     .intro {
         margin-bottom: 10%;
     }
